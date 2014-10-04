@@ -5,7 +5,7 @@ A little Mac Widget I created for St. Olaf Students to check the balances on the
 
 Here is a screenshot of it what it looks like
 
-![alt tag](https://raw.github.com/armaanbindra/Saint-Olaf-Balances/OleBank.png)
+![alt tag](https://raw.githubusercontent.com/armaanbindra/Saint-Olaf-Balances/master/OleBank.png)
 
 Note: You are required to have a Saint Olaf Username and Password to use this widget
 A little Mac Desktop Widget I created for St. Olaf Students to check the balances on their Student ID
