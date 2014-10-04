@@ -1,7 +1,7 @@
 Saint-Olaf-Balances
 ===================
 © Armaan Bindra
-A little Mac Widget I created for St. Olaf Students to check the balances on their Student ID
+A little Mac Widget I created for St. Olaf Students to keep track of the balances on their Student ID
 
 Here is a screenshot of it what it looks like
 
