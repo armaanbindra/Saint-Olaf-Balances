@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0203A8619B4D93300C374EE /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0203A8519B4D93300C374EE /* Background.png */; };
+		E07A8D4319B23E3A00BEE95F /* PrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07A8D4219B23E3A00BEE95F /* PrefsViewController.m */; };
+		E0E3768819B1EE6500DC5C6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E3768719B1EE6500DC5C6F /* main.m */; };
+		E0E3768B19B1EE6500DC5C6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E3768A19B1EE6500DC5C6F /* ViewController.m */; };
+		E0E3768E19B1EE6500DC5C6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E3768D19B1EE6500DC5C6F /* AppDelegate.m */; };
+		E0E3769019B1EE6500DC5C6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E3768F19B1EE6500DC5C6F /* Images.xcassets */; };
+		E0E3769319B1EE6500DC5C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E3769119B1EE6500DC5C6F /* Main.storyboard */; };
+		E0E3769F19B1EE6500DC5C6F /* Saint_Olaf_BalancesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E3769E19B1EE6500DC5C6F /* Saint_Olaf_BalancesTests.m */; };
+		E0E376AC19B1F68100DC5C6F /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E376A919B1F68100DC5C6F /* HTMLNode.m */; };
+		E0E376AD19B1F68100DC5C6F /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E376AB19B1F68100DC5C6F /* HTMLParser.m */; };
+		E0E376AF19B1F90D00DC5C6F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E376AE19B1F90C00DC5C6F /* libxml2.dylib */; };
+		E0E376B219B1FFCB00DC5C6F /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E376B019B1FFCB00DC5C6F /* DataHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E3769919B1EE6500DC5C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E3767A19B1EE6500DC5C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E3768119B1EE6500DC5C6F;
+			remoteInfo = "Saint Olaf Balances";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0203A8519B4D93300C374EE /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		E07A8D4119B23E3A00BEE95F /* PrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsViewController.h; sourceTree = "<group>"; };
+		E07A8D4219B23E3A00BEE95F /* PrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsViewController.m; sourceTree = "<group>"; };
+		E0E3768219B1EE6500DC5C6F /* Saint Olaf Balances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saint Olaf Balances.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E3768619B1EE6500DC5C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E3768719B1EE6500DC5C6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E3768919B1EE6500DC5C6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0E3768A19B1EE6500DC5C6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0E3768C19B1EE6500DC5C6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E3768D19B1EE6500DC5C6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0E3768F19B1EE6500DC5C6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E0E3769219B1EE6500DC5C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0E3769819B1EE6500DC5C6F /* Saint Olaf BalancesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saint Olaf BalancesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E3769D19B1EE6500DC5C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E3769E19B1EE6500DC5C6F /* Saint_Olaf_BalancesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saint_Olaf_BalancesTests.m; sourceTree = "<group>"; };
+		E0E376A819B1F68100DC5C6F /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		E0E376A919B1F68100DC5C6F /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		E0E376AA19B1F68100DC5C6F /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		E0E376AB19B1F68100DC5C6F /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		E0E376AE19B1F90C00DC5C6F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E0E376B019B1FFCB00DC5C6F /* DataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
+		E0E376B119B1FFCB00DC5C6F /* DataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E3767F19B1EE6500DC5C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E376AF19B1F90D00DC5C6F /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E3769519B1EE6500DC5C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E3767919B1EE6500DC5C6F = {
+			isa = PBXGroup;
+			children = (
+				E0E376AE19B1F90C00DC5C6F /* libxml2.dylib */,
+				E0E3768419B1EE6500DC5C6F /* Saint Olaf Balances */,
+				E0E3769B19B1EE6500DC5C6F /* Saint Olaf BalancesTests */,
+				E0E3768319B1EE6500DC5C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E3768319B1EE6500DC5C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E3768219B1EE6500DC5C6F /* Saint Olaf Balances.app */,
+				E0E3769819B1EE6500DC5C6F /* Saint Olaf BalancesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E3768419B1EE6500DC5C6F /* Saint Olaf Balances */ = {
+			isa = PBXGroup;
+			children = (
+				E0203A8519B4D93300C374EE /* Background.png */,
+				E0E376B119B1FFCB00DC5C6F /* DataHandler.h */,
+				E0E376B019B1FFCB00DC5C6F /* DataHandler.m */,
+				E0E376A819B1F68100DC5C6F /* HTMLNode.h */,
+				E0E376A919B1F68100DC5C6F /* HTMLNode.m */,
+				E0E376AA19B1F68100DC5C6F /* HTMLParser.h */,
+				E0E376AB19B1F68100DC5C6F /* HTMLParser.m */,
+				E0E3768919B1EE6500DC5C6F /* ViewController.h */,
+				E0E3768A19B1EE6500DC5C6F /* ViewController.m */,
+				E07A8D4119B23E3A00BEE95F /* PrefsViewController.h */,
+				E07A8D4219B23E3A00BEE95F /* PrefsViewController.m */,
+				E0E3768C19B1EE6500DC5C6F /* AppDelegate.h */,
+				E0E3768D19B1EE6500DC5C6F /* AppDelegate.m */,
+				E0E3768F19B1EE6500DC5C6F /* Images.xcassets */,
+				E0E3769119B1EE6500DC5C6F /* Main.storyboard */,
+				E0E3768519B1EE6500DC5C6F /* Supporting Files */,
+			);
+			path = "Saint Olaf Balances";
+			sourceTree = "<group>";
+		};
+		E0E3768519B1EE6500DC5C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E3768619B1EE6500DC5C6F /* Info.plist */,
+				E0E3768719B1EE6500DC5C6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E3769B19B1EE6500DC5C6F /* Saint Olaf BalancesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E3769E19B1EE6500DC5C6F /* Saint_Olaf_BalancesTests.m */,
+				E0E3769C19B1EE6500DC5C6F /* Supporting Files */,
+			);
+			path = "Saint Olaf BalancesTests";
+			sourceTree = "<group>";
+		};
+		E0E3769C19B1EE6500DC5C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E3769D19B1EE6500DC5C6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E3768119B1EE6500DC5C6F /* Saint Olaf Balances */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E376A219B1EE6500DC5C6F /* Build configuration list for PBXNativeTarget "Saint Olaf Balances" */;
+			buildPhases = (
+				E0E3767E19B1EE6500DC5C6F /* Sources */,
+				E0E3767F19B1EE6500DC5C6F /* Frameworks */,
+				E0E3768019B1EE6500DC5C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Saint Olaf Balances";
+			productName = "Saint Olaf Balances";
+			productReference = E0E3768219B1EE6500DC5C6F /* Saint Olaf Balances.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E3769719B1EE6500DC5C6F /* Saint Olaf BalancesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E376A519B1EE6500DC5C6F /* Build configuration list for PBXNativeTarget "Saint Olaf BalancesTests" */;
+			buildPhases = (
+				E0E3769419B1EE6500DC5C6F /* Sources */,
+				E0E3769519B1EE6500DC5C6F /* Frameworks */,
+				E0E3769619B1EE6500DC5C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E3769A19B1EE6500DC5C6F /* PBXTargetDependency */,
+			);
+			name = "Saint Olaf BalancesTests";
+			productName = "Saint Olaf BalancesTests";
+			productReference = E0E3769819B1EE6500DC5C6F /* Saint Olaf BalancesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E3767A19B1EE6500DC5C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Armaan Bindra";
+				TargetAttributes = {
+					E0E3768119B1EE6500DC5C6F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E0E3769719B1EE6500DC5C6F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E0E3768119B1EE6500DC5C6F;
+					};
+				};
+			};
+			buildConfigurationList = E0E3767D19B1EE6500DC5C6F /* Build configuration list for PBXProject "Saint Olaf Balances" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E3767919B1EE6500DC5C6F;
+			productRefGroup = E0E3768319B1EE6500DC5C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E3768119B1EE6500DC5C6F /* Saint Olaf Balances */,
+				E0E3769719B1EE6500DC5C6F /* Saint Olaf BalancesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E3768019B1EE6500DC5C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0203A8619B4D93300C374EE /* Background.png in Resources */,
+				E0E3769019B1EE6500DC5C6F /* Images.xcassets in Resources */,
+				E0E3769319B1EE6500DC5C6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E3769619B1EE6500DC5C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E3767E19B1EE6500DC5C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E376AC19B1F68100DC5C6F /* HTMLNode.m in Sources */,
+				E0E3768B19B1EE6500DC5C6F /* ViewController.m in Sources */,
+				E0E3768819B1EE6500DC5C6F /* main.m in Sources */,
+				E0E3768E19B1EE6500DC5C6F /* AppDelegate.m in Sources */,
+				E0E376B219B1FFCB00DC5C6F /* DataHandler.m in Sources */,
+				E07A8D4319B23E3A00BEE95F /* PrefsViewController.m in Sources */,
+				E0E376AD19B1F68100DC5C6F /* HTMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E3769419B1EE6500DC5C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E3769F19B1EE6500DC5C6F /* Saint_Olaf_BalancesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E3769A19B1EE6500DC5C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E3768119B1EE6500DC5C6F /* Saint Olaf Balances */;
+			targetProxy = E0E3769919B1EE6500DC5C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0E3769119B1EE6500DC5C6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E3769219B1EE6500DC5C6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E376A019B1EE6500DC5C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E0E376A119B1EE6500DC5C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E0E376A319B1EE6500DC5C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Saint Olaf Balances/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0E376A419B1EE6500DC5C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/include/libxml2,
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
+				INFOPLIST_FILE = "Saint Olaf Balances/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0E376A619B1EE6500DC5C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saint Olaf Balances.app/Contents/MacOS/Saint Olaf Balances";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Saint Olaf BalancesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		E0E376A719B1EE6500DC5C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saint Olaf Balances.app/Contents/MacOS/Saint Olaf Balances";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Saint Olaf BalancesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E3767D19B1EE6500DC5C6F /* Build configuration list for PBXProject "Saint Olaf Balances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E376A019B1EE6500DC5C6F /* Debug */,
+				E0E376A119B1EE6500DC5C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E376A219B1EE6500DC5C6F /* Build configuration list for PBXNativeTarget "Saint Olaf Balances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E376A319B1EE6500DC5C6F /* Debug */,
+				E0E376A419B1EE6500DC5C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E376A519B1EE6500DC5C6F /* Build configuration list for PBXNativeTarget "Saint Olaf BalancesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E376A619B1EE6500DC5C6F /* Debug */,
+				E0E376A719B1EE6500DC5C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E3767A19B1EE6500DC5C6F /* Project object */;
+}
